@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(181,39,164,1) 0%,rgba(26,65,173,1) 100%);
+   }
+  
+  .outerbody { 
+    height: 330px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.76);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.2px);
+  -webkit-backdrop-filter: blur(1.2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .display { 
+    width: 90%;
+    height: 75px;
+    border-radius: 10px;
+    margin-top: 12px; 
+    background-color: #072743;
+  }  
+  
+  .btnGrp {
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex: 1;
+    
+    display: flex;
+    column-gap: 8px;
+  }
+  
+  .btngrpone {
+    flex: 1;
+    padding: 2px;
+    
+    display: flex;
+    gap: 13px;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    background-color: #444444;
+    width: 45px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    font-family: sans-serif;
+    box-shadow: -1.5px 0px 5px 0px rgb(255,255,255),
+                 1.5px 0px 5px 0px rgb(255,255,255);
+  }
+  
+  
+  .btn:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  #equal:hover {
+    background-color: #5df7ff;
+    color: black;
+    font-weight: var 30px;
+    cursor: pointer;
+  }
+  
+  #clr:hover { 
+    background-color: #5df7ff;
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: black;
+    cursor: pointer;
+   }
+  
+  .btngrptwo {
+    width: 20%;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+  }
+  
+  .button {
+    background-color: #dcfdff;
+    width: 45px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 20px;
+    font-family: sans-serif;
+    box-shadow: -1.5px 0px 5px 0px,
+                 1.5px 0px 5px 0px rgb(0,0,0);
+  }
+  
+  .button:hover {
+    box-shadow: -1.5px 0px 5px 0px rgb(100,0,100),
+      1.5px 0px 5px 0px rgb(255,100,0),
+      -1.5px 0px 5px 0px rgb(255,0,100),
+      1.5px 0px 5px 0px rgb(255,100,0),
+      -1.5px 0px 5px 0px rgb(255,0,100),
+      1.5px 0px 5px 0px rgb(255,100,0);
+    
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  p { 
+   width: max-content;
+   color: white;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 28px;
+   font-family: sans-serif;}
+  
+  P:hover {
+    cursor: pointer;
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+  }
+  
+  
+   
+  
+  
+  
+  
+   
+  
